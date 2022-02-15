@@ -4,14 +4,8 @@
   <meta charset="utf-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Bootstrap CSS --> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
-  <title>Hello, world!</title> 
+  <title>Menu</title> 
   <style>
-    .navbar-dark .navbar-toggler{
-        border: none;
-        color: #fff;
-        border : 2px solid gray;
-        outline: none;
-      }
       .nav-link:hover{
         border-bottom: 1px solid orange;
       }
@@ -20,16 +14,10 @@
           border-bottom: none;
         }
       }
-      .btn{
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 14px;
-      }
       </style> 
  </head> 
  <body> 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#"> <img src="" alt="picture">Coffee&Cafe</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#n1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#"> <img src="" alt="picture">Coffee&Cafe</img></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#n1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
    <div class="collapse navbar-collapse" id="n1"> 
     <ul class="navbar-nav ml-auto"> 
      <li class="nav-item active"> <a class="nav-link" href="index.html">Home</a> </li> 
@@ -38,17 +26,43 @@
      <li class="nav-item"> <a class="nav-link" href="gallery.html">Gallery</a> </li> 
      <li class="nav-item"> <a class="nav-link" href="review.html">Review</a> </li> 
      <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li> 
-     <li class="nav-item"> <a class="nav-link" href="blog.html">blog</a> </li> 
+     <li class="nav-item"> <a class="nav-link" href="blog.html">Blog</a> </li> 
     </ul> 
    </div> 
   </nav> 
-  <h3 class="text-centre">Our Menu</h3> 
+  <h3>Our Menu</h3> 
   <div class="row"> 
    <div class="col"> 
     <div class="card text-center mb-3" style="width:300px"> 
      <div class="card-body"> 
       <img class="card-img-top" src="..." alt="Card image-cap"> 
-      <h5 class="card-title">Hot coffes</h5> <a href="#" class="btn btn-secondary">see more</a> 
+      <h5 class="card-title">Hot coffes</h5> <botton class="btn btn-primary" data-toggle="modal" data-target="#L1">
+        See menu 
+      </botton> 
+      <div class="modal" id="L1" aria-labelledby="mysmallModalLabel"> 
+       <div class="modal-dialog modal-lg"> 
+        <div class="modal-content"> 
+         <div class="modal-header"> 
+          <div> 
+           <h3>Hot coffee varieties</h3> 
+          </div> 
+          <div> <botton class="close" data-dismiss="modal">
+             × 
+           </botton> 
+          </div> 
+         </div> 
+         <div class="modal-body"> 
+          <h5>Black coffee</h5> 
+          <h5>Decaf coffee</h5> 
+          <h5>Expresso coffee</h5> 
+          <h5>Latte coffee</h5> 
+          <h5>Cappuccino coffee</h5> 
+          <h5>Macchiato coffee</h5> 
+          <h5>Flat White coffee</h5> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
      </div> 
     </div> 
    </div> 
@@ -56,7 +70,33 @@
     <div class="card text-center  mb-3" style="width:300px"> 
      <div class="card-body"> 
       <img class="card-img-top" src="..." alt="Card image-cap"> 
-      <h5 class="card-title">Cold coffees</h5> <a href="#" class="btn btn-secondary">see more</a> 
+      <h5 class="card-title">Cold coffees</h5> <botton class="btn btn-primary" data-toggle="modal" data-target="#s1">
+        See menu 
+      </botton> 
+      <div class="modal" id="s1" aria-labelledby="mysmallModalLabel"> 
+       <div class="modal-dialog modal-lg"> 
+        <div class="modal-content"> 
+         <div class="modal-header"> 
+          <div> 
+           <h3>Cold coffee varieties</h3> 
+          </div> 
+          <div> <botton class="close" data-dismiss="modal">
+             × 
+           </botton> 
+          </div> 
+         </div> 
+         <div class="modal-body"> 
+          <h5>Iced coffee</h5> 
+          <h5>Iced Latte</h5> 
+          <h5>cold Brew</h5> 
+          <h5>Frappe</h5> 
+          <h5>Coffee milkshake</h5> 
+          <h5> Cold coffee with ice cream</h5> 
+          <h5>Chocolate cold coffee</h5> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
      </div> 
     </div> 
    </div> 
@@ -64,7 +104,30 @@
     <div class="card text-center  mb-3" style="width:300px"> 
      <div class="card-body"> 
       <img class="card-img-top" src="..." alt="Card image-cap"> 
-      <h5 class="card-title">pastries</h5> <a href="#" class="btn btn-secondary">see more</a> 
+      <h5 class="card-title">Tea</h5> <botton class="btn btn-primary" data-toggle="modal" data-target="#b1">
+        See menu 
+      </botton> 
+      <div class="modal" id="b1" aria-labelledby="mysmallModalLabel"> 
+       <div class="modal-dialog modal-lg"> 
+        <div class="modal-content"> 
+         <div class="modal-header"> 
+          <div> 
+           <h3>varities of tea</h3> 
+          </div> 
+          <div> <botton class="close" data-dismiss="modal">
+             × 
+           </botton> 
+          </div> 
+         </div> 
+         <div class="modal-body"> 
+          <h5>Black tea</h5> 
+          <h5>Green tea</h5> 
+          <h5>Lemon Ginger tea</h5> 
+          <h5>Masala chai</h5> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
      </div> 
     </div> 
    </div> 
@@ -72,7 +135,36 @@
     <div class="card text-center mb-3" style="width:300px"> 
      <div class="card-body"> 
       <img class="card-img-top" src="..." alt="Card image-cap"> 
-      <h5 class="card-title">title</h5> <a href="#" class="btn btn-secondary">click</a> 
+      <h5 class="card-title">pastries</h5> <botton class="btn btn-primary" data-toggle="modal" data-target="#a1">
+        See menu 
+      </botton> 
+      <div class="modal" id="a1" aria-labelledby="mysmallModalLabel"> 
+       <div class="modal-dialog modal-lg"> 
+        <div class="modal-content"> 
+         <div class="modal-header"> 
+          <div> 
+           <h3>varities of pastries</h3> 
+          </div> 
+          <div> <botton class="close" data-dismiss="modal">
+             × 
+           </botton> 
+          </div> 
+         </div> 
+         <div class="modal-body"> 
+          <h5>cookies</h5> 
+          <h5>Muffins</h5> 
+          <h5>pies</h5> 
+          <h5>Biscotti</h5> 
+          <h5>veg puff</h5> 
+          <h5>egg puff</h5> 
+          <h5>veg samosa</h5> 
+          <h5>fluffy,Buter cinnamon rolls</h5> 
+          <h5>burger</h5> 
+          <h5>pizza</h5> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
      </div> 
     </div> 
    </div> 
