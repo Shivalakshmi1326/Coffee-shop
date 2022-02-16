@@ -1,4 +1,4 @@
-<!doctype html>
+    <!doctype html>
 <html lang="en"> 
  <head> <!-- Required meta tags --> 
   <meta charset="utf-8"> 
@@ -6,12 +6,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
   <title>Hello, world!</title> 
   <style>
-    .navbar-dark .navbar-toggler{
-        border: none;
-        color: #fff;
-        border : 2px solid gray;
-        outline: none;
-      }
       .nav-link:hover{
         border-bottom: 1px solid orange;
       }
@@ -20,16 +14,10 @@
           border-bottom: none;
         }
       }
-      .btn{
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 14px;
-      }
       </style> 
  </head> 
  <body> 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#"> <img src="" alt="picture">Coffee&Cafe</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#n1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#"> <img src="logo.jpg" alt="picture" width="50px" class="img-thumbnail"> Coffee&amp;Cafe</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#n1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
    <div class="collapse navbar-collapse" id="n1"> 
     <ul class="navbar-nav ml-auto"> 
      <li class="nav-item active"> <a class="nav-link" href="index.html">Home</a> </li> 
@@ -38,53 +26,76 @@
      <li class="nav-item"> <a class="nav-link" href="gallery.html">Gallery</a> </li> 
      <li class="nav-item"> <a class="nav-link" href="review.html">Review</a> </li> 
      <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li> 
-     <li class="nav-item"> <a class="nav-link" href="blog.html">blog</a> </li> 
+     <li class="nav-item"> <a class="nav-link" href="blog.html">Blog</a> </li> 
     </ul> 
    </div> 
   </nav> 
-  <h3>Reviews</h3>
-  <div class="row"> 
-   
-    
-     <div class="col-md-4 text center"> 
-       <q>This coffee shop is my favorite place to hang and do my works. I really like this place because it has a good ambiance and not too crowded as well. The coffee and pastries that they had were so delicious. The barista was so friendly and pleasant to talk with. </q> 
-    
-      <h3>Avinash kr</h3> 
+  <div id="s1" class="carousel slide" data-ride="carousel"> 
+   <ol class="carousel-indicators"> 
+    <li data-target="#s1" data-slide-to="0" class="active"></li> 
+    <li data-target="#s1" data-slide-to="1"></li> 
+    <li data-target="#s1" data-slide-to="2"></li> 
+    <li data-target="#s1" data-slide-to="3"></li> 
+   </ol> 
+   <div class="carousel-inner"> 
+    <div class="carousel-item active"> 
+     <div class="img-area"> 
+      <img src="" alt="First slide"> 
      </div> 
-    
-   
-    
-    
-     <div class="col-md-4 text center"> 
-       <q>I really like the atmosphere, good coffee, and nice interior. This is a good place to study or chill with friends. The drinks and foods were all tasty and worthwhile. If you’re up for a fresh place with beautiful architecture then this is a must to visit. </q> 
-   
+     <div class="img-text"> 
+      <p>I really like the atmosphere, good coffee, and nice interior. This is a good place to study or chill with friends. The drinks and foods were all tasty and worthwhile. If you’re up for a fresh place with beautiful architecture then this is a must to visit.</p> 
       <h3>Hunny</h3> 
      </div> 
     </div> 
-   
-   <div class="row">
-    
-   
-     <div class="col-md-4 text center"> 
-       <q>This place is amazing! They offered the best coffee and showed the best attitude to its costumers. </q>
-     
-      <h3>Archana jain</h3> 
+    <div class="carousel-item"> 
+     <div class="img-area"> 
+      <img src="" alt="second slide"> 
      </div> 
-    
-   
-    
-     
-     <div class="col-md-4 text center"> 
-     <q>I fell in in love with this cute café and its staff the first time I popped in. Vast variety of snacks and beverages, vegetarian option available, very nice and welcoming atmosphere. </q>
-     
-      <h3>Kapil Goley</h3> 
+     <div class="img-text"> 
+      <p> This coffee shop is my favorite place to hang and do my works. I really like this place because it has a good ambiance and not too crowded as well. The coffee and pastries that they had were so delicious. The barista was so friendly and pleasant to talk with.</p> 
+      <h3>Avinash</h3> 
      </div> 
     </div> 
-    
- 
-  <!-- Optional JavaScript --> <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+   </div> 
+   <div class="carousel-item"> 
+    <div class="img-area"> 
+     <img src="" alt="third slide"> 
+    </div> 
+    <div class="img-text"> 
+     <p> This place is amazing! They offered the best coffee and showed the best attitude to its costumers. </p> 
+     <h3>Archana</h3> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="carousel-item"> 
+   <div class="img-area"> 
+    <img src="" alt="fourth slide"> 
+   </div> 
+   <div class="img-text"> 
+    <p>I fell in in love with this cute café and its staff the first time I popped in. Vast variety of snacks and beverages, vegetarian option available, very nice and welcoming atmosphere. </p> 
+    <h3>Shanker</h3> 
+   </div> 
+  </div>
+  </div>
+  </div> 
+  <a class="carousel-control-prev" href="#s1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#s1" role="button" data-slide="next"> <span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span> </a> 
+  </div> 
+   <!-- Optional JavaScript --> <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
  </body>
 </html>
+ 
+  
+    
+   
+    
+     
+
+     
+   
+   
+    
+ 
+
